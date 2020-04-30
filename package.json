@@ -1,0 +1,32 @@
+{
+  "name": "auth2-project",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l8nightswithJS/node-auth2-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l8nightswithJS/node-auth2-project/issues"
+  },
+  "homepage": "https://github.com/l8nightswithJS/node-auth2-project#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.3",
+    "sqlite3": "^4.2.0"
+  }
+}
